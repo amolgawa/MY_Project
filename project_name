@@ -1,0 +1,6 @@
+#include<stdio.h>
+{
+char s[]="My Project";
+
+print("project=%s",s);
+}
