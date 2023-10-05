@@ -1,0 +1,12 @@
+#include<stdio.h>
+union u
+{
+int i;
+char ch;
+float f;
+double d;
+} B;
+void main()
+{
+printf("union=%d\n",sizeof(B));
+}
