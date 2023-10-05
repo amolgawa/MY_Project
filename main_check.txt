@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct u
+{
+int i;
+char ch;
+float f;
+double d;
+} B;
+void main()
+{
+printf("Struct=%d\n",sizeof(B));
+}
