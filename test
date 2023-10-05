@@ -3,9 +3,7 @@ void main()
 {
 char ch;
 int i;
-float f:40.6;
+float f;
 
 printf("ch=%d i=%d f=%d",sizeof(ch),sizeof(i),sizeof(f));
-
-
 }
