@@ -1,5 +1,6 @@
 #include<stdio.h>
 struct u
+union u
 {
 int i;
 char ch;
@@ -9,4 +10,5 @@ double d;
 void main()
 {
 printf("Struct=%d\n",sizeof(B));
+printf("union=%d\n",sizeof(B));
 }
